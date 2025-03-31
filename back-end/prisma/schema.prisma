@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum CategoriaMenu {
+  CAFES
+  SOBREMESAS
+  ESPECIAIS
+  BEBIDAS_GELADAS
+  CHAS
+}
+
+model Mesa {
+  id       Int       @id @default(autoincrement())
+  numero   Int       @unique
+  ocupada  Boolean   @default(false)
+  pedidos  Pedido[]  @relation("MesaPedidos")
+  clientes Cliente[]
+}
+
+model Cliente {
+  id         Int      @id @default(autoincrement())
+  nome       String
+  mesa       Mesa?    @relation(fields: [mesaNumero], references: [numero])
+  mesaNumero Int?     @unique
+  pedidos    Pedido[]
+}
+
+model Pedido {
+  id         Int          @id @default(autoincrement())
+  dataPedido DateTime     @default(now())
+  total      Decimal
+  itens      ItemPedido[]
+  cliente    Cliente      @relation(fields: [clienteId], references: [id])
+  clienteId  Int
+  mesa       Mesa?        @relation(fields: [mesaNumero], references: [numero], name: "MesaPedidos")
+  mesaNumero Int?
+}
+
+model Menu {
+  id         Int          @id @default(autoincrement())
+  nome       String
+  descricao  String?
+  preco      Decimal
+  categoria  CategoriaMenu
+  disponivel Boolean?      @default(true)
+  imagem     String?
+  itens      ItemPedido[]
+}
+
+model ItemPedido {
+  id            Int     @id @default(autoincrement())
+  quantidade    Int
+  precoUnitario Decimal
+  observacoes   String?
+  pedido        Pedido  @relation(fields: [pedidoId], references: [id])
+  pedidoId      Int
+  menu          Menu    @relation(fields: [menuId], references: [id])
+  menuId        Int
+}
+
+model Contato {
+  id           Int      @id @default(autoincrement())
+  nome         String
+  email        String   @unique
+  mensagem     String
+  dataMensagem DateTime @default(now())
+}

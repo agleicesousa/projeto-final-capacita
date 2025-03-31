@@ -1,0 +1,126 @@
+body {
+  background-color: var(--bg-secondary-color);
+  color: var(--text-color);
+}
+
+.main_body {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.endereco,
+.telefone,
+.email {
+  color: maroon;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  font-size: 0.9rem;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1.5px solid #4a2c2a;
+  background-color: beige;
+  padding: 8px;
+  transition: border-color 0.3s ease;
+}
+
+form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #4a2c2a;
+  outline: none;
+}
+
+form button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #4a2c2a;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #5a3a36;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .main_body {
+    padding: 15px;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  form {
+    gap: 10px;
+  }
+
+  form button {
+    padding: 10px;
+  }
+}
+

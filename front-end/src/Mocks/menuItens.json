@@ -1,0 +1,162 @@
+{
+  "cafes": {
+    "Espresso": {
+      "id": 1,
+      "price": 5.0,
+      "image": "https://tse1.mm.bing.net/th?id=OIG2.EYHEArP4VZCzqAtJ1aoG&pid=ImgGn",
+      "alt": "Xícara de café preto fumegante"
+    },
+    "Cappuccino": {
+      "id": 2,
+      "price": 6.5,
+      "image": "https://tse3.mm.bing.net/th?id=OIG2.NOWp44.A_93UfywDOBUb&pid=ImgGn",
+      "alt": "Café expresso servido em uma xícara elegante"
+    },
+    "Latte": {
+      "id": 3,
+      "price": 7.0,
+      "image": "https://tse1.mm.bing.net/th?id=OIG2.xg2RIMws8xBHRDUkdf75&pid=ImgGn",
+      "alt": "Café com leite servido com espuma cremosa"
+    },
+    "Café com Canela": {
+      "id": 4,
+      "price": 6.0,
+      "image": "https://tse2.mm.bing.net/th?id=OIG1.lJHpyHEEyDWJg4sclkyQ&pid=ImgGn",
+      "alt": "Café aromático com toque de canela"
+    },
+    "Mocha": {
+      "id": 5,
+      "price": 8.0,
+      "image": "https://tse4.mm.bing.net/th?id=OIG1.3qPouSpDN5vVu6a8u7av&pid=ImgGn",
+      "alt": "Café especial com chantilly e raspas de chocolate"
+    }
+  },
+  "sobremesas": {
+    "Mousse de Maracujá": {
+      "id": 6,
+      "price": 8.0,
+      "image": "https://tse3.mm.bing.net/th?id=OIG1.C9LyIAVhRVVjKpazx2Bk&pid=ImgGn",
+      "alt": "Taça com mousse de maracujá e calda"
+    },
+    "Queijo com Goiabada": {
+      "id": 7,
+      "price": 9.0,
+      "image": "https://encurtador.com.br/0PfNG",
+      "alt": "Queijo com goiabada servido em uma elegante apresentação"
+    },
+    "Torta de Chocolate": {
+      "id": 8,
+      "price": 10.0,
+      "image": "https://tse1.mm.bing.net/th?id=OIG2.ris_yEvfi9zIWH4YOxEq&pid=ImgGn",
+      "alt": "Uma fatia de torta de chocolate com chantilly"
+    },
+    "Bolinho de Chuva": {
+      "id": 9,
+      "price": 6.5,
+      "image": "https://24698e6a.delivery.rocketcdn.me/wp-content/uploads/2021/06/como-fazer-bolinho-de-chuva-8.jpg",
+      "alt": "Bolinho de chuva polvilhado com açúcar e canela"
+    },
+    "Pudim de Leite": {
+      "id": 10,
+      "price": 7.5,
+      "image": "https://tse1.mm.bing.net/th?id=OIG1.MW4f40YOp0616OnbDkUP&pid=ImgGn",
+      "alt": "Pudim de leite com calda caramelizada"
+    }
+  },
+  "especiais": {
+    "Smoothie Tropical": {
+      "id": 11,
+      "price": 12.0,
+      "image": "https://tse1.mm.bing.net/th?id=OIG2.OifEOL6y_9vxOBw3NoX6&pid=ImgGn",
+      "alt": "Bebida especial com toque tropical"
+    },
+    "Drink Cítrico": {
+      "id": 12,
+      "price": 10.0,
+      "image": "https://tse4.mm.bing.net/th?id=OIG4.DvEAChLm6PbBstECxd1l&pid=ImgGn",
+      "alt": "Drink refrescante com frutas cítricas"
+    },
+    "Bebida Artesanal": {
+      "id": 13,
+      "price": 11.5,
+      "image": "https://tse2.mm.bing.net/th?id=OIG4.mq02GRbqVgKO.RDR.mge&pid=ImgGn",
+      "alt": "Bebida artesanal com especiarias"
+    },
+    "Smoothie Energético": {
+      "id": 14,
+      "price": 9.5,
+      "image": "https://tse3.mm.bing.net/th?id=OIG1.7rAOefnPndUR4xHdB9Tv&pid=ImgGn",
+      "alt": "Smoothie energético com banana e mel"
+    },
+    "Suco Detox": {
+      "id": 15,
+      "price": 6.0,
+      "image": "https://tse4.mm.bing.net/th?id=OIG3.SOK5cCaGiZV95xJL7047&pid=ImgGn",
+      "alt": "Copo de suco detox verde"
+    }
+  },
+  "bebidas Geladas": {
+    "Sorvete de Baunilha": {
+      "id": 16,
+      "price": 7.0,
+      "image": "https://tse4.mm.bing.net/th?id=OIG3.4a2.I4XdXs.v.22YYsOh&pid=ImgGn",
+      "alt": "Bola de sorvete de baunilha com calda"
+    },
+    "MilkShake de Chocolate": {
+      "id": 17,
+      "price": 10.0,
+      "image": "https://tse4.mm.bing.net/th?id=OIG1.4JVvdFfvIViiGsBs5mxe&pid=ImgGn",
+      "alt": "Milk shake de chocolate com chantilly"
+    },
+    "Milk Shake de Morango": {
+      "id": 18,
+      "price": 10.0,
+      "image": "https://tse4.mm.bing.net/th?id=OIG2.Wch5b3KkuFe6X_CtUUSm&pid=ImgGn",
+      "alt": "Milk shake de morango decorado com pedaços da fruta"
+    },
+    "Vitamina de Banana": {
+      "id": 19,
+      "price": 8.0,
+      "image": "https://tse1.mm.bing.net/th?id=OIG4.2SwBBebtLBo0CfhCoXnL&pid=ImgGn",
+      "alt": "Vitamina cremosa de banana"
+    },
+    "Vitamina de Morango": {
+      "id": 20,
+      "price": 8.5,
+      "image": "https://tse1.mm.bing.net/th?id=OIG1.P2A6gTHEM5RQe42tOEts&pid=ImgGn",
+      "alt": "Vitamina de morango servida em copo alto"
+    }
+  },
+  "chás": {
+    "Chá de Hortelã": {
+      "id": 21,
+      "price": 4.5,
+      "image": "https://tse4.mm.bing.net/th?id=OIG3.rtPD7QcLyArXCzWJC.l5&pid=ImgGn",
+      "alt": "Xícara de chá de hortelã com folhas frescas"
+    },
+    "Chá Verde": {
+      "id": 22,
+      "price": 5.0,
+      "image": "https://tse3.mm.bing.net/th?id=OIG1.zArRsBUw7FwyHlGAfSSi&pid=ImgGn",
+      "alt": "Chá verde servido em copo de vidro"
+    },
+    "Chá de Camomila": {
+      "id": 23,
+      "price": 4.5,
+      "image": "https://tse1.mm.bing.net/th?id=OIG4.zPt6.RI5eqNrB3a6XfFw&pid=ImgGn",
+      "alt": "Xícara de chá de camomila com flores frescas"
+    },
+    "Chá de Frutas Vermelhas": {
+      "id": 24,
+      "price": 6.0,
+      "image": "https://tse3.mm.bing.net/th?id=OIG1.ejNYNDRW42Cz0MFRMSZI&pid=ImgGn",
+      "alt": "Chá frutado com frutas vermelhas frescas"
+    },
+    "Chá de Gengibre e Limão": {
+      "id": 25,
+      "price": 5.5,
+      "image": "https://tse3.mm.bing.net/th?id=OIG4.dMg4YRGjV5TQUgR7thM3&pid=ImgGn",
+      "alt": "Chá quente com fatias de gengibre e limão"
+    }
+  }
+}
